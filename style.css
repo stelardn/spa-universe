@@ -42,11 +42,18 @@ nav a:hover {
 
   align-self: center;
   justify-self: center;
+
+  padding: 1.5rem;
 }
 
 #app h1 {
   font-size: 3.6rem;
   font-weight: 800;
+}
+
+#app p {
+  font-size: 2rem;
+  text-align: center;
 }
 
 #app button {
