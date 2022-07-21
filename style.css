@@ -12,7 +12,6 @@
 }
 
 body {
-  /* background-image: url(img/img.png); */
   background-size: cover;
   display: grid;
   grid-template-rows: max-content;
@@ -39,8 +38,6 @@ nav a:hover {
 
 #app {
   display: flex;
-  /* align-items: center; */
-  /* justify-self: center; */
   padding: 10rem;
 }
 

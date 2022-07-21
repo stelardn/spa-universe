@@ -1,9 +1,7 @@
 var bodyClass = "home";
 const body = document.querySelector('body');
-// var previousBodyClass;
 
 export function bgHandler(page) {
-  // previousBodyClass = bodyClass;
   body.classList.remove(`${bodyClass}`);
 
   switch(page) {
