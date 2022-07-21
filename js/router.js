@@ -1,3 +1,4 @@
+import { bgHandler } from "./bgHandler.js";
 export class Router {
 
   routes = {}
@@ -22,10 +23,10 @@ export class Router {
     fetch(route)
     .then(data => data.text())
     .then(html => {
-      document.querySelector('#app').innerHTML = html
+      document.querySelector('#app').innerHTML = html;
     })
 
-    console.log(pathname)
+    bgHandler(pathname);
   }
 
 }

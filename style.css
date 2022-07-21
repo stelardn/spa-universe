@@ -12,7 +12,7 @@
 }
 
 body {
-  background-image: url(img/img.png);
+  /* background-image: url(img/img.png); */
   background-size: cover;
   display: grid;
   grid-template-rows: max-content;
@@ -51,7 +51,6 @@ nav a:hover {
   margin: 0 auto;
 
   align-items: center;
-  max-width: ;
 
   gap: 1.6rem;
 }
@@ -94,5 +93,22 @@ nav a:hover {
 
 #app button:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  background-color: #fff;
+}
+
+#app button:hover a {
+  color: #02799D;
+  font-weight: 700;
+}
+
+.home {
+  background-image: url(img/home.png);
+}
+
+.exploration {
+  background-image: url(img/exploration.png);
+}
+
+.universe {
+  background-image: url(img/universe.png);
 }
